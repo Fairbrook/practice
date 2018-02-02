@@ -1,0 +1,84 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	display: grid;
+	grid-template-columns: auto 70% auto;
+}
+ul{
+	list-style: none;
+}
+footer{
+	padding: 10px;
+	background-color: #353434;
+	margin-top: 10px;
+	margin-right: -10px;
+	margin-left: -10px;
+	color: white;
+}
+footer a{
+	color: white;
+	text-decoration: none;
+}
+header{
+	text-align: center;
+	font-family: 'Cabin Sketch', cursive;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+header h1{
+	font-size: 10em;
+}
+
+
+.index{
+	padding: 5px;
+	padding-left: 15%;
+	font-size: 2em;
+}
+.index ul{
+	background-color: rgba(111,111,255,.25);
+	position: sticky;
+	top: 15px;
+	padding: 5%;
+}
+.index li{
+	cursor: pointer;
+}
+.index li:hover{
+	text-decoration: underline;
+}
+.background{
+	background: black url("/img/background.jpeg");
+}
+#content{
+	margin: 10px;
+	margin-bottom: 0px;	
+}
+#posts{
+	grid-column: 1/2;
+	text-align: justify;
+}
+.column-2{
+	display: grid;
+	grid-template-columns: auto 30%;
+	grid-gap: 1%;
+}
+
+.card .img img{
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.card .date{
+	font-size: 1em;
+	color: gray;
+}
+.card .title{
+	font-size: 3em
+}
+.card .text{
+	font-size: 1.5em;
+
+}
