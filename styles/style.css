@@ -51,7 +51,7 @@ header h1{
 	text-decoration: underline;
 }
 .background{
-	background: black url("/img/background.jpeg");
+	background: black url("/practice/img/background.jpeg");
 }
 #content{
 	margin: 10px;
