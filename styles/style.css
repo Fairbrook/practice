@@ -80,5 +80,31 @@ header h1{
 }
 .card .text{
 	font-size: 1.5em;
+}
 
+@media only screen and (max-width: 1010px) {
+	.column-2{
+		display: block;
+	}
+	.index{
+		padding: 0px;
+	}
+	.index ul{
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 720px){
+	body{
+		display: block;
+	}
+	.background{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 510px){
+	header h1{
+		font-size: 4em;
+	}
 }
